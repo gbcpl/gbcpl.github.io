@@ -36,7 +36,7 @@ const projects = [
   },
   {
     "title": "Kasa",
-    "url": "https://github.com/gbcpl/kasa",
+    "url": "https://gbcpl.github.io/kasa",
     "github": "https://github.com/gbcpl/kasa",
     "description": "Application Web avec React et React Router",
     "img": "/assets/kasa.png"

@@ -1,20 +1,17 @@
-import Project from '../Project'
-import projects from '../../data/projects'
+import Work from '../Work'
 import Curriculum from '../Curriculum'
 import Contact from '../Contact'
 import About from '../About'
 import BackToTop from '../BackToTop'
+import projects from '../../data/projects';
 
 function Home() {
   return (
     <main>
-      <h1>Développeur web full-stack</h1>
       <h2>Gabriel CAPELL</h2>
-      <div className='container'>
-        {projects.map((singleData, index) => {
-          return <Project key={index} url={singleData.url} title={singleData.title} img={singleData.img} description={singleData.description} github={singleData.github} />
-        })}
-      </div>
+      <Work job="Data Analyst" projects={projects.dataAnalyst} name="data"/>
+      <hr />
+      <Work job="Développeur web" projects={projects.developpeurWeb} name="web"/>
       <hr />
       <About />
       <hr />

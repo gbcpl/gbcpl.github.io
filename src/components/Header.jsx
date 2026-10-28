@@ -7,6 +7,8 @@ const Header = () => {
     <nav id="top">
       <HashLink to="/" relative="path" smooth={true}><h1>Portfolio</h1></HashLink>
       <div className='link-nav'>
+        <HashLink to="/#data" relative="path" smooth={true}>Data Analyst</HashLink>
+        <HashLink to="/#web" relative="path" smooth={true}>Développeur web</HashLink>
         <HashLink to="/#about" relative="path" smooth={true}>Qui suis-je ?</HashLink>
         <HashLink to="/#cv" relative="path" smooth={true}>CV</HashLink>
         <HashLink to="/#contact" relative="path" smooth={true}>Contact</HashLink>
